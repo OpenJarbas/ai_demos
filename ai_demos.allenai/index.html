@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>allenai - ai_demos</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "allenai";
+    var mkdocs_page_input_path = "ai_demos.allenai.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> ai_demos</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.pornstarbyface/">pornstarbyface</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.deepmoji/">deepmoji</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.huggingface/">huggingface</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.sequel/">sequel</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.polyglot/">polyglot</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.spacy/">spacy</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.sense2vec/">sense2vec</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.argumentext/">argumentext</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.lrp/">lrp</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.semanticparsing/">semanticparsing</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.deepwarp/">deepwarp</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.haystackai/">haystackai</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.deepface/">deepface</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.cornell/">cornell</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.turknlp/">turknlp</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.deepai/">deepai</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">allenai</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#module-ai_demosallenai">Module ai_demos.allenai</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#ner">NER</a></li>
+        
+            <li><a class="toctree-l3" href="#aristo">aristo</a></li>
+        
+            <li><a class="toctree-l3" href="#constituency95parse">constituency_parse</a></li>
+        
+            <li><a class="toctree-l3" href="#euclid">euclid</a></li>
+        
+            <li><a class="toctree-l3" href="#machine95comprehension">machine_comprehension</a></li>
+        
+            <li><a class="toctree-l3" href="#semantic95role95labeling">semantic_role_labeling</a></li>
+        
+            <li><a class="toctree-l3" href="#textual95entailment">textual_entailment</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.textgain/">textgain</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ai_demos.cogcomp/">cogcomp</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">ai_demos</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>allenai</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="module-ai_demosallenai">Module ai_demos.allenai</h2>
+<h3 id="ner">NER</h3>
+<p><code>def NER(text)</code></p>
+<h3 id="aristo">aristo</h3>
+<p><code>def aristo(text)</code></p>
+<p>NOTES: 
+ DO NOT ABUSE
+ use the source https://github.com/allenai/aristo-mini</p>
+<h3 id="constituency95parse">constituency_parse</h3>
+<p><code>def constituency_parse(sentence)</code></p>
+<p>A constituency parse tree breaks a text into sub-phrases, or constituents. Non-terminals in the tree are types of phrases, the terminals are the words in the sentence. This demo is an implementation of a minimal neural model for constituency parsing based on an independent scoring of labels and spans described in Extending a Parser to Distant Domains Using a Few Dozen Partially Annotated Examples (Joshi et al, 2018). This model uses ELMo embeddings, which are completely character based and improves single model performance from 92.6 F1 to 94.11 F1 on the Penn Treebank, a 20% relative error reduction.</p>
+<p>:param sentence:</p>
+<p>:return: </p>
+<h3 id="euclid">euclid</h3>
+<p><code>def euclid(text)</code></p>
+<p>NOTES: 
+ DO NOT ABUSE</p>
+<h3 id="machine95comprehension">machine_comprehension</h3>
+<p><code>def machine_comprehension(question, passage)</code></p>
+<p>Machine Comprehension (MC) answers natural language questions by selecting an answer span within an evidence text.</p>
+<p>The AllenNLP toolkit provides the following MC visualization, which can be used for any MC model in AllenNLP.</p>
+<p>This page demonstrates a reimplementation of BiDAF (Seo et al, 2017), or Bi-Directional Attention Flow,</p>
+<p>a widely used MC baseline that achieved state-of-the-art accuracies on the SQuAD dataset (Wikipedia sentences) in early 2017.</p>
+<p>:param question:</p>
+<p>:param passage:</p>
+<p>:return: </p>
+<h3 id="semantic95role95labeling">semantic_role_labeling</h3>
+<p><code>def semantic_role_labeling(sentence)</code></p>
+<p>Semantic Role Labeling (SRL) recovers the latent predicate argument structure of a sentence,</p>
+<p>providing representations that answer basic questions about sentence meaning,</p>
+<p>including “who” did “what” to “whom,” etc.</p>
+<p>The AllenNLP toolkit provides the following SRL visualization, which can be used for any SRL model in AllenNLP.</p>
+<p>This page demonstrates a reimplementation of a deep BiLSTM model (He et al, 2017),</p>
+<p>which is currently state of the art for PropBank SRL (Newswire sentences).</p>
+<p>:param sentence:</p>
+<p>:return: </p>
+<h3 id="textual95entailment">textual_entailment</h3>
+<p><code>def textual_entailment(premise, hypothesis)</code></p>
+<p>Textual Entailment (TE) takes a pair of sentences and predicts whether the facts in the first necessarily imply the facts in the second one.</p>
+<p>The AllenNLP toolkit provides the following TE visualization, which can be run for any TE model you develop.</p>
+<p>This page demonstrates a reimplementation of the decomposable attention model (Parikh et al, 2017) ,</p>
+<p>which was state of the art for the SNLI benchmark (short sentences about visual scenes) in 2016.</p>
+<p>Rather than pre-trained Glove vectors, this model uses ELMo embeddings,</p>
+<p>which are completely character based and improve performance by 2%</p>
+<p>:param premise:</p>
+<p>:param hypotheses:</p>
+<p>:return: </p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../ai_demos.textgain/" class="btn btn-neutral float-right" title="textgain">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../ai_demos.deepai/" class="btn btn-neutral" title="deepai"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../ai_demos.deepai/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../ai_demos.textgain/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
