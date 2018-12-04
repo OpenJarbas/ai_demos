@@ -15,3 +15,8 @@ Have a suggestion for another web demo? open an issue
 Found something broken? open an issue
 
 Is your demo here and you want it taken down? open an issue or send me an email jarbasai@mailfence.com
+
+
+# supported demos
+
+allen
