@@ -14,5 +14,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Transfered ownership to [OpenJarbas](https://github.com/OpenJarbas)
 - Made a changelog
 
-[unreleased]: https://github.com/OpenJarbas/audiobooker/tree/dev
-[0.1.2]: https://github.com/OpenJarbas/audiobooker/tree/0.1.2
+[unreleased]: https://github.com/OpenJarbas/ai_demos/tree/dev
+[0.1.2]: https://github.com/OpenJarbas/ai_demos/tree/0.1.2
