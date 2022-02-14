@@ -8,5 +8,6 @@ setup(
     license='MIT',
     author='jarbasAI',
     author_email='jarbasai@mailfence.com',
+    install_requires=["requests"],
     description='unofficial api to machine learning demos'
 )
